@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Word Memorization</string>
+    <string name="learn">Öğren</string>
+    <string name="exercises">Egzersizler</string>
+    <string name="learned_Words">Öğrenilen Kelimeler</string>
+    <string name="settings">Ayarlar</string>
+    <string name="about">Hakkında</string>
+</resources>

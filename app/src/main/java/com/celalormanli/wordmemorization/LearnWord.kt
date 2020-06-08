@@ -9,6 +9,5 @@ class LearnWord : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_learn_word)
         supportActionBar?.setBackgroundDrawable(resources.getDrawable(R.drawable.main_background))
-
     }
 }
