@@ -20,5 +20,9 @@ class MainMenu : AppCompatActivity() {
             val intent = Intent(baseContext, LearnWord::class.java)
             startActivity(intent)
         }
+        btnExercises.setOnClickListener {
+            val intent = Intent(baseContext, Exercises::class.java)
+            startActivity(intent)
+        }
     }
 }
