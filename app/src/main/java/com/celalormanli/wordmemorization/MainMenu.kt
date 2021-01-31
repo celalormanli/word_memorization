@@ -24,5 +24,13 @@ class MainMenu : AppCompatActivity() {
             val intent = Intent(baseContext, Exercises::class.java)
             startActivity(intent)
         }
+        btnLearnedWords.setOnClickListener {
+            val  intent=Intent(baseContext, LearnedWords::class.java)
+            startActivity(intent)
+        }
+        btnSettings.setOnClickListener {
+            val intent=Intent(baseContext, SettingsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
